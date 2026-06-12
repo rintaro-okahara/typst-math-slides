@@ -100,20 +100,15 @@ typst-math-slides/
 
 The public components live in `lib.typ`.
 
-- `research-theme`
-- `title-block`
-- `definition-box`
-- `theorem-box`
-- `result-card`
-- `warning-box`
-- `takeaway`
-- `plot-placeholder`
-- `key`
-- `small-note`
-- `two-col`
-- `three-col`
+| Role | Components | Use them for |
+| --- | --- | --- |
+| Slide setup | `research-theme`, `research-slide`, `title-block` | Initialize the deck and build title slides. |
+| Content blocks | `definition-box`, `theorem-box`, `result-card`, `warning-box`, `takeaway` | Structure definitions, claims, results, caveats, and final messages. |
+| Figure support | `plot-placeholder` | Reserve stable space for plots before final figures are ready. |
+| Layout utilities | `two-col`, `three-col` | Build common two- and three-column mathematical slide layouts. |
+| Text utilities | `key`, `small-note` | Emphasize key terms and add compact supporting notes. |
 
-See `examples/gallery` for usage examples.
+See `examples/gallery` for rendered usage examples.
 
 ## Usage as a Git Submodule
 
