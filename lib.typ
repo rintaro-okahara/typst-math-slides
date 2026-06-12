@@ -7,7 +7,11 @@
 
 #let research-theme = simple-theme.with(
   aspect-ratio: "16-9",
+  header: none,
+  header-right: none,
 )
+
+#let research-slide(..args) = slide(..args)
 
 // -------------------------
 // Colors

@@ -34,6 +34,10 @@ Use it when you want:
 - `docs/style-guide.md`: design and structure notes
 - `CONTRIBUTING.md`: contribution scope and review checklist
 
+## Preview
+
+![typst-math-slides PDF preview](docs/assets/preview.png)
+
 ## Requirements
 
 - Typst CLI
